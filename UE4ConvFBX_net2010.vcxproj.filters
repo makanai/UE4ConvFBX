@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\Common\Common.cxx" />
+    <ClCompile Include="DisplayAnimation.cxx" />
+    <ClCompile Include="DisplayCamera.cxx" />
+    <ClCompile Include="DisplayCommon.cxx" />
+    <ClCompile Include="DisplayGenericInfo.cxx" />
+    <ClCompile Include="DisplayGlobalSettings.cxx" />
+    <ClCompile Include="DisplayHierarchy.cxx" />
+    <ClCompile Include="DisplayLight.cxx" />
+    <ClCompile Include="DisplayLink.cxx" />
+    <ClCompile Include="DisplayMarker.cxx" />
+    <ClCompile Include="DisplayMaterial.cxx" />
+    <ClCompile Include="DisplayMesh.cxx" />
+    <ClCompile Include="DisplayNurb.cxx" />
+    <ClCompile Include="DisplayPatch.cxx" />
+    <ClCompile Include="DisplayPivotsAndLimits.cxx" />
+    <ClCompile Include="DisplayPose.cxx" />
+    <ClCompile Include="DisplayShape.cxx" />
+    <ClCompile Include="DisplaySkeleton.cxx" />
+    <ClCompile Include="DisplayTexture.cxx" />
+    <ClCompile Include="DisplayUserProperties.cxx" />
+    <ClCompile Include="DisplayLodGroup.cxx" />
+    <ClCompile Include="main.cxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Common\Common.h" />
+    <ClInclude Include="DisplayAnimation.h" />
+    <ClInclude Include="DisplayCamera.h" />
+    <ClInclude Include="DisplayCommon.h" />
+    <ClInclude Include="DisplayGenericInfo.h" />
+    <ClInclude Include="DisplayGlobalSettings.h" />
+    <ClInclude Include="DisplayHierarchy.h" />
+    <ClInclude Include="DisplayLight.h" />
+    <ClInclude Include="DisplayLink.h" />
+    <ClInclude Include="DisplayMarker.h" />
+    <ClInclude Include="DisplayMaterial.h" />
+    <ClInclude Include="DisplayMesh.h" />
+    <ClInclude Include="DisplayNurb.h" />
+    <ClInclude Include="DisplayPatch.h" />
+    <ClInclude Include="DisplayPivotsAndLimits.h" />
+    <ClInclude Include="DisplayPose.h" />
+    <ClInclude Include="DisplayShape.h" />
+    <ClInclude Include="DisplaySkeleton.h" />
+    <ClInclude Include="DisplayTexture.h" />
+    <ClInclude Include="DisplayLodGroup.h" />
+    <ClInclude Include="rapidxml\rapidxml_iterators.hpp">
+      <Filter>rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidxml\rapidxml_print.hpp">
+      <Filter>rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidxml\rapidxml_utils.hpp">
+      <Filter>rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidxml\rapidxml.hpp">
+      <Filter>rapidxml</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="rapidxml">
+      <UniqueIdentifier>{1484a116-6c38-4019-abb0-4b40198ac471}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
